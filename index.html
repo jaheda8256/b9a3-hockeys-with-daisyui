@@ -34,8 +34,8 @@
 
 <body class="font-manrope">
     <header class="container mx-auto">
-        <!-- naver section -->
-        <nav>
+        <!-- navbar section -->
+        <nav class="lg:px-24">
             <div class="navbar bg-base-100">
                 <div class="navbar-start">
                   <div class="dropdown">
@@ -71,7 +71,44 @@
               </div>
         </nav>
         <!-- banner section -->
-        <section>
+        <section class="my-16 lg:px-24 px-8">
+            <div class="relative">
+                <div class="carousel w-full">
+     <div id="slide1" class="carousel-item relative w-full">
+        <img src="./images/banner1.png" class="w-full" />
+                      <div class="absolute transform -translate-y-1/2 bottom-0 left-32 lg:left-10 lg:bottom-5">
+                        <a href="#slide4" class="btn btn-circle bg-black text-white border-none">❮</a> 
+                        <a href="#slide2" class="btn btn-circle bg-black text-white border-none">❯</a>
+                      </div>
+                    </div> 
+                    <div id="slide2" class="carousel-item relative w-full">
+                      <img src="./images/banner2.jpg" class="w-full" />
+                      <div class="absolute transform -translate-y-1/2 bottom-0 left-32 lg:left-10 lg:bottom-5">
+                        <a href="#slide1" class="btn btn-circle bg-black text-white border-none">❮</a> 
+                        <a href="#slide3" class="btn btn-circle bg-black text-white border-none">❯</a>
+                      </div>
+                    </div> 
+                    <div id="slide3" class="carousel-item relative w-full">
+                      <img src="./images/banner3.jpg" class="w-full" />
+                      <div class="absolute transform -translate-y-1/2 bottom-0 left-32 lg:left-10 lg:bottom-5">
+                        <a href="#slide2" class="btn btn-circle bg-black text-white border-none">❮</a> 
+                        <a href="#slide4" class="btn btn-circle bg-black text-white border-none">❯</a>
+                      </div>
+                    </div> 
+                    <div id="slide4" class="carousel-item relative w-full">
+                      <img src="./images/banner4.jpg" class="w-full" />
+                      <div class="absolute transform -translate-y-1/2 bottom-0 left-32 lg:left-10 lg:bottom-5">
+                        <a href="#slide3" class="btn btn-circle bg-black text-white border-none">❮</a> 
+                        <a href="#slide1" class="btn btn-circle bg-black text-white border-none">❯</a>
+                      </div>
+                    </div>
+                  </div>
+          <div class="mt-6 absolute bg-black w-94 lg:w-[500px] space-y-3 rounded-xl  h-52 lg:h-36 flex flex-col px-8 py-7 flex flex-col lg:right-10 lg:bottom-10">
+       <h5 class=" lg:text-xl font-extrabold 
+           text-white">Meet all the heroes from the field</h5> 
+           <p class="text-white text-opacity-80">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>     
+        </div>
+            </div>
 
         </section>
 
